@@ -1,6 +1,7 @@
 name = Real name
-description = Provides token-based name displays for users.
+description = Provides token-based name displays for users.  WWM Applied patch to applied patch from https://drupal.org/node/1239478#comment-6439934 to allow Views to show actual Username instead of Real Name.
 core = 7.x
+version = 1.x-dev-wwm
 dependencies[] = token
 files[] = realname.module
 files[] = realname.admin.inc
